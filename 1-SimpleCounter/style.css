@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #2eec71;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #333333;
+}
+#counter {
+  font-size: 4em;
+  margin: 20px 0;
+  color: #444444;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  color: #fff;
+}
+
+#decrement {
+  background-color: #ff0000;
+}
+
+#reset {
+  background-color: #f1c40f;
+}
+
+#increment {
+  background-color: #2eec71;
+}
+
+.buttons button:hover {
+  opacity: 0.9;
+}
